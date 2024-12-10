@@ -1,0 +1,11 @@
+{
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-idiomatic-order"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "selector-class-pattern": "^[a-zA-Z]{1}[a-zA-Z0-9]+$",
+    "declaration-block-no-redundant-longhand-properties": [true, { "ignoreShorthands": ["flex-flow"] }],
+    "selector-pseudo-class-no-unknown": [true, { "ignorePseudoClasses": ["global"] }],
+    "property-no-vendor-prefix": [true, { "ignoreProperties": ["appearance", "user-select"] }],
+    "color-function-notation": null
+  }
+}
