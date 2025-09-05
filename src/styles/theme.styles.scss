@@ -4,4 +4,13 @@
   --color-text-default: #000;
   --color-background-default: #FFF;
   --color-error: #F00;
+
+  // secondary
+  --color-secondary-rgb: 141, 148, 173; // #8d94ad; #c4c4c4
+  --color-secondary: rgb(var(--color-secondary-rgb));
+  --color-secondary-hover: #757d9a;
+
+  // white
+  --color-white-rgb: 255, 255, 255;
+  --color-white: rgb(var(--color-white-rgb));
 }

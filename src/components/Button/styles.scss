@@ -1,0 +1,12 @@
+.button {
+  min-width: 80px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  transition: opacity 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
